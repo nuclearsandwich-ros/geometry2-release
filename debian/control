@@ -1,0 +1,12 @@
+Source: ros-turbulent-geometry2
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: http://www.ros.org/wiki/geometry2
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-geometry2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-tf2, ros-turbulent-tf2-eigen, ros-turbulent-tf2-geometry-msgs, ros-turbulent-tf2-kdl, ros-turbulent-tf2-msgs, ros-turbulent-tf2-py, ros-turbulent-tf2-ros, ros-turbulent-tf2-sensor-msgs, ros-turbulent-ros-workspace
+Description: A metapackage to bring in the default packages second generation Transform Library in ros, tf2.

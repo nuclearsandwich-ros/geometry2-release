@@ -1,0 +1,12 @@
+Source: ros-turbulent-tf2-ros
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-cmake-python, ros-turbulent-geometry-msgs, ros-turbulent-message-filters, ros-turbulent-python-cmake-module, ros-turbulent-rclcpp, ros-turbulent-rclcpp-action, ros-turbulent-rclpy, ros-turbulent-std-msgs, ros-turbulent-tf2, ros-turbulent-tf2-msgs, ros-turbulent-tf2-py, ros-turbulent-ros-workspace
+Homepage: http://www.ros.org/wiki/tf2_ros
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-tf2-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-geometry-msgs, ros-turbulent-message-filters, ros-turbulent-rclcpp, ros-turbulent-rclcpp-action, ros-turbulent-rclpy, ros-turbulent-std-msgs, ros-turbulent-tf2, ros-turbulent-tf2-msgs, ros-turbulent-tf2-py, ros-turbulent-ros-workspace
+Description: This package contains the ROS bindings for the tf2 library, for both Python and C++.

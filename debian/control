@@ -1,0 +1,12 @@
+Source: ros-turbulent-examples-tf2-py
+Section: misc
+Priority: extra
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-turbulent-ament-copyright, ros-turbulent-ament-flake8, ros-turbulent-ament-pep257, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-examples-tf2-py
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-launch-ros, ros-turbulent-tf2-ros, ros-turbulent-ros-workspace
+Description: Has examples of using the tf2 Python API.

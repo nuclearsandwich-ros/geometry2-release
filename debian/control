@@ -1,0 +1,12 @@
+Source: ros-verystable-tf2-eigen
+Section: misc
+Priority: optional
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, ros-verystable-ament-cmake, ros-verystable-ament-cmake-gtest, ros-verystable-eigen3-cmake-module, ros-verystable-geometry-msgs, ros-verystable-tf2, ros-verystable-tf2-ros, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-tf2-eigen
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, ros-verystable-eigen3-cmake-module, ros-verystable-geometry-msgs, ros-verystable-tf2, ros-verystable-tf2-ros, ros-verystable-ros-workspace
+Description: tf2_eigen

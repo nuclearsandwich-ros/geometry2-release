@@ -1,0 +1,12 @@
+Source: ros-verystable-tf2-msgs
+Section: misc
+Priority: optional
+Maintainer: Tully Foote <tfoote@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-action-msgs, ros-verystable-ament-cmake, ros-verystable-builtin-interfaces, ros-verystable-geometry-msgs, ros-verystable-rosidl-default-generators, ros-verystable-ros-workspace, ros-verystable-rmw-connext-cpp, ros-verystable-rmw-fastrtps-cpp, ros-verystable-rmw-implementation, ros-verystable-rmw-opensplice-cpp, ros-verystable-rosidl-typesupport-connext-c, ros-verystable-rosidl-typesupport-connext-cpp, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp
+Homepage: http://www.ros.org/wiki/tf2_msgs
+Standards-Version: 3.9.2
+
+Package: ros-verystable-tf2-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-action-msgs, ros-verystable-builtin-interfaces, ros-verystable-geometry-msgs, ros-verystable-rosidl-default-runtime, ros-verystable-ros-workspace
+Description: tf2_msgs

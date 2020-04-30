@@ -1,1 +1,1 @@
-{"trim": "", "base": "15f6121", "trimbase": "", "parent": "debian/eloquent/tf2_sensor_msgs", "previous": "2f4e4d0"}
+{"base": "a33dce5", "parent": "debian/verystable/tf2_sensor_msgs", "previous": "bf083f3", "trim": "", "trimbase": ""}
